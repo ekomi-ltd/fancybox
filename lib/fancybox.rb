@@ -1,5 +1,5 @@
 require "fancybox/version"
 
-module Fancybox
-  # Your code goes here...
+if defined? Rails
+  require 'fancybox/engine'
 end
