@@ -1,3 +1,4 @@
+# coding: utf-8
 module Fancybox
   module Helper
     def fancybox
