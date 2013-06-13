@@ -17,5 +17,14 @@ $(document).ready(function() {
     $("a[rel=group]:first").click();
     return false;
   });
+
+  $(".iframe").fancybox({
+    'width'				: '99%',
+    'height'			: '99%',
+    'autoScale'			: true,
+    'transitionIn'		: 'none',
+    'transitionOut'		: 'none',
+    'type'				: 'iframe'
+  });
 });
 //]]>
