@@ -4,6 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'fancybox/version'
 
 Gem::Specification.new do |gem|
+  gem.license       = "MIT"
   gem.name          = "fancybox"
   gem.version       = Fancybox::VERSION
   gem.authors       = ["Andrey"]
@@ -16,4 +17,6 @@ Gem::Specification.new do |gem|
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.require_paths = ["lib"]
+
+  gem.add_dependency "sass-rails", ">= 3.1.7"
 end
