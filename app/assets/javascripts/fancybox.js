@@ -2015,3 +2015,5 @@
 	});
 
 }(window, document, jQuery));
+
+//= require fancybox/helpers/media.js
